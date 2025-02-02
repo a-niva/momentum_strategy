@@ -16,7 +16,7 @@ This strategy uses a **momentum approach** where the top-performing stocks (base
 1. **Data Acquisition**: Stock price data (closing prices) for a set of tickers is downloaded using the `yfinance` API.
 2. **Momentum Calculation**: The percentage change over the past 365 days is calculated, then smoothed over a 46-day window.
 3. **Portfolio Construction**: Every day, the top 10 momentum stocks are selected and bought. If a stock drops out of the top 10, it is sold.
-4. **Performance Tracking**: The strategy's performance is tracked and compared to the **S&P 500**.
+4. **Performance Tracking**: The strategy's performance is tracked and compared to the **S&P 500**. 
 
 ### **Key Parameters**
 
